@@ -1,3 +1,4 @@
+# Challenge 9 - Armstrong Number
 num = int(input("Enter a number: "))
 
 original = num
