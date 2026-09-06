@@ -1,3 +1,4 @@
+# Challenge 8 - Factorial
 num = int(input("Enter a number: "))
 
 factorial = 1
