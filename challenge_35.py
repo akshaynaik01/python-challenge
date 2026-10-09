@@ -1,0 +1,10 @@
+# Challenge 35 - Check Automorphic Number
+
+num = int(input("Enter a number: "))
+
+square = num * num
+
+if str(square).endswith(str(num)):
+    print("Automorphic number")
+else:
+    print("Not an automorphic number")
