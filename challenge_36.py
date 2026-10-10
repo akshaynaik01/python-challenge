@@ -1,0 +1,18 @@
+# Challenge 36 - Check Harshad Number
+
+num = int(input("Enter a number: "))
+
+if num <= 0:
+    print("Enter a positive number")
+else:
+    temp = num
+    digit_sum = 0
+
+    while temp > 0:
+        digit_sum += temp % 10
+        temp //= 10
+
+    if num % digit_sum == 0:
+        print("Harshad number")
+    else:
+        print("Not a Harshad number")
